@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main() {
+int n = 0 ;
+for(int n = 0;;){
+cout << "Masukkan nilai hari ini :" <<"\n";
+cin >> n ;
+if(n>=0 && n<= 40){
+cout << "Nilai anda: " <<n <<"\t" <<"PUSH UP 20 x" <<endl; 
+}
+if(n>40 && n<=50){
+cout << "Nilai anda: " <<n << "\t" <<"PUSH UP 10 x" <<endl;
+}
+if(n>50 && n<=60){
+cout << "Nilai anda: " <<n <<"\t" <<"SIT UP 10 x" <<endl;
+}
+if (n>60 && n<80){
+cout << "Nilai anda: " <<n <<"\t" <<"SIT UP 5 x" <<endl;
+}
+if (n>=80 && n<=100){
+cout << "Nilai anda: " <<n <<"\t" <<"BAGUS TINGKATKAN" <<endl;
+}
+}
+return 0;}
